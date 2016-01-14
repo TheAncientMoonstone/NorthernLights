@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E3EFFB81C340E1C00047BBF /* ParseLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3EFFB71C340E1C00047BBF /* ParseLogInViewController.swift */; };
+		2E3EFFBA1C340EAD00047BBF /* ParseLogInAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3EFFB91C340EAD00047BBF /* ParseLogInAppearance.swift */; };
+		2E3EFFBC1C340FCF00047BBF /* ParseSignUpAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3EFFBB1C340FCF00047BBF /* ParseSignUpAppearance.swift */; };
+		2E6385DC1C33CD00005AA127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6385DB1C33CD00005AA127 /* AppDelegate.swift */; };
+		2E6385DE1C33CD00005AA127 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6385DD1C33CD00005AA127 /* FirstViewController.swift */; };
+		2E6385E01C33CD00005AA127 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6385DF1C33CD00005AA127 /* SecondViewController.swift */; };
+		2E6385E31C33CD00005AA127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6385E11C33CD00005AA127 /* Main.storyboard */; };
+		2E6385E51C33CD00005AA127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6385E41C33CD00005AA127 /* Assets.xcassets */; };
+		2E6385F01C33CDBD005AA127 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E6385EF1C33CDBD005AA127 /* LaunchScreen.xib */; };
+		2E6385F21C340828005AA127 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E6385F11C340828005AA127 /* Pacifico.ttf */; };
+		A890B4DFBD8163FBE02E0456 /* libPods-NorthernLights.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7D7C612C1C5D76ED52F8F8 /* libPods-NorthernLights.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E3EFFB71C340E1C00047BBF /* ParseLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseLogInViewController.swift; sourceTree = "<group>"; };
+		2E3EFFB91C340EAD00047BBF /* ParseLogInAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseLogInAppearance.swift; sourceTree = "<group>"; };
+		2E3EFFBB1C340FCF00047BBF /* ParseSignUpAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseSignUpAppearance.swift; sourceTree = "<group>"; };
+		2E3EFFBD1C34106600047BBF /* NorthernLights-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NorthernLights-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E6385D81C33CD00005AA127 /* NorthernLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorthernLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6385DB1C33CD00005AA127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E6385DD1C33CD00005AA127 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2E6385DF1C33CD00005AA127 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2E6385E21C33CD00005AA127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E6385E41C33CD00005AA127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E6385E91C33CD00005AA127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6385EF1C33CDBD005AA127 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../LaunchScreen.xib; sourceTree = "<group>"; };
+		2E6385F11C340828005AA127 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		865FF135D57FD87B51DE51B2 /* Pods-NorthernLights.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorthernLights.release.xcconfig"; path = "Pods/Target Support Files/Pods-NorthernLights/Pods-NorthernLights.release.xcconfig"; sourceTree = "<group>"; };
+		CC7D7C612C1C5D76ED52F8F8 /* libPods-NorthernLights.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NorthernLights.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72591B61E1319D831688562 /* Pods-NorthernLights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NorthernLights.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NorthernLights/Pods-NorthernLights.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E6385D51C33CD00005AA127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A890B4DFBD8163FBE02E0456 /* libPods-NorthernLights.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0003E9A1A5A1F8BCA47FABBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7D7C612C1C5D76ED52F8F8 /* libPods-NorthernLights.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E6385CF1C33CD00005AA127 = {
+			isa = PBXGroup;
+			children = (
+				2E6385DA1C33CD00005AA127 /* NorthernLights */,
+				2E6385D91C33CD00005AA127 /* Products */,
+				4934E21890A2E804EE3542CD /* Pods */,
+				0003E9A1A5A1F8BCA47FABBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E6385D91C33CD00005AA127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E6385D81C33CD00005AA127 /* NorthernLights.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E6385DA1C33CD00005AA127 /* NorthernLights */ = {
+			isa = PBXGroup;
+			children = (
+				2E6385F11C340828005AA127 /* Pacifico.ttf */,
+				2E6385DB1C33CD00005AA127 /* AppDelegate.swift */,
+				2E6385DD1C33CD00005AA127 /* FirstViewController.swift */,
+				2E6385DF1C33CD00005AA127 /* SecondViewController.swift */,
+				2E6385E11C33CD00005AA127 /* Main.storyboard */,
+				2E6385EF1C33CDBD005AA127 /* LaunchScreen.xib */,
+				2E3EFFB71C340E1C00047BBF /* ParseLogInViewController.swift */,
+				2E3EFFB91C340EAD00047BBF /* ParseLogInAppearance.swift */,
+				2E3EFFBB1C340FCF00047BBF /* ParseSignUpAppearance.swift */,
+				2E6385E41C33CD00005AA127 /* Assets.xcassets */,
+				2E6385E91C33CD00005AA127 /* Info.plist */,
+				2E3EFFBD1C34106600047BBF /* NorthernLights-Bridging-Header.h */,
+			);
+			path = NorthernLights;
+			sourceTree = "<group>";
+		};
+		4934E21890A2E804EE3542CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D72591B61E1319D831688562 /* Pods-NorthernLights.debug.xcconfig */,
+				865FF135D57FD87B51DE51B2 /* Pods-NorthernLights.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E6385D71C33CD00005AA127 /* NorthernLights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6385EC1C33CD00005AA127 /* Build configuration list for PBXNativeTarget "NorthernLights" */;
+			buildPhases = (
+				A273990E27F263712C0C851D /* Check Pods Manifest.lock */,
+				2E6385D41C33CD00005AA127 /* Sources */,
+				2E6385D51C33CD00005AA127 /* Frameworks */,
+				2E6385D61C33CD00005AA127 /* Resources */,
+				430D70F42664F96367FEF266 /* Embed Pods Frameworks */,
+				39E31643F9A996EF1C1AD4A0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NorthernLights;
+			productName = NorthernLights;
+			productReference = 2E6385D81C33CD00005AA127 /* NorthernLights.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E6385D01C33CD00005AA127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Timothy Richardson";
+				TargetAttributes = {
+					2E6385D71C33CD00005AA127 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2E6385D31C33CD00005AA127 /* Build configuration list for PBXProject "NorthernLights" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E6385CF1C33CD00005AA127;
+			productRefGroup = 2E6385D91C33CD00005AA127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E6385D71C33CD00005AA127 /* NorthernLights */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E6385D61C33CD00005AA127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6385E51C33CD00005AA127 /* Assets.xcassets in Resources */,
+				2E6385F01C33CDBD005AA127 /* LaunchScreen.xib in Resources */,
+				2E6385F21C340828005AA127 /* Pacifico.ttf in Resources */,
+				2E6385E31C33CD00005AA127 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39E31643F9A996EF1C1AD4A0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NorthernLights/Pods-NorthernLights-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430D70F42664F96367FEF266 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NorthernLights/Pods-NorthernLights-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A273990E27F263712C0C851D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E6385D41C33CD00005AA127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3EFFB81C340E1C00047BBF /* ParseLogInViewController.swift in Sources */,
+				2E3EFFBA1C340EAD00047BBF /* ParseLogInAppearance.swift in Sources */,
+				2E6385E01C33CD00005AA127 /* SecondViewController.swift in Sources */,
+				2E6385DC1C33CD00005AA127 /* AppDelegate.swift in Sources */,
+				2E6385DE1C33CD00005AA127 /* FirstViewController.swift in Sources */,
+				2E3EFFBC1C340FCF00047BBF /* ParseSignUpAppearance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E6385E11C33CD00005AA127 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6385E21C33CD00005AA127 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E6385EA1C33CD00005AA127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E6385EB1C33CD00005AA127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E6385ED1C33CD00005AA127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72591B61E1319D831688562 /* Pods-NorthernLights.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = NorthernLights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimmyR.NorthernLights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NorthernLights/NorthernLights-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E6385EE1C33CD00005AA127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865FF135D57FD87B51DE51B2 /* Pods-NorthernLights.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = NorthernLights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimmyR.NorthernLights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NorthernLights/NorthernLights-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E6385D31C33CD00005AA127 /* Build configuration list for PBXProject "NorthernLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6385EA1C33CD00005AA127 /* Debug */,
+				2E6385EB1C33CD00005AA127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E6385EC1C33CD00005AA127 /* Build configuration list for PBXNativeTarget "NorthernLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6385ED1C33CD00005AA127 /* Debug */,
+				2E6385EE1C33CD00005AA127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E6385D01C33CD00005AA127 /* Project object */;
+}
