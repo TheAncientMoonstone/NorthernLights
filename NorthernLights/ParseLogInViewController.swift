@@ -22,7 +22,7 @@ class ParseLogInViewController: UIViewController, PFLogInViewControllerDelegate,
             loginViewController.signUpController?.delegate = self
             self.presentViewController(loginViewController, animated: false, completion: nil)
         } else {
-            //presentLoggedInAlert()
+            
         }
     }
     
@@ -31,7 +31,7 @@ class ParseLogInViewController: UIViewController, PFLogInViewControllerDelegate,
             let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("MainViewController")
             self.presentViewController(vc, animated: true, completion: nil)
         }
-        //presentLoggedInAlert()
+        
     }
     
     func signUpViewController(signUpController: PFSignUpViewController, didSignUpUser user: PFUser) {
@@ -39,15 +39,8 @@ class ParseLogInViewController: UIViewController, PFLogInViewControllerDelegate,
             let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("MainViewController")
             self.presentViewController(vc, animated: true, completion: nil)
         }
-        //presentLoggedInAlert()
+        
     }
     
-    func presentLoggedInAlert() {
-        let alertController = UIAlertController(title: "You're now logged in", message: "Welcome to Northern Lights", preferredStyle: .Alert)
-        let OKAction = UIAlertAction(title: "OK", style: .Default) { (action) in
-            self.dismissViewControllerAnimated(true, completion: nil)
-        }
-        alertController.addAction(OKAction)
-        self.presentViewController(alertController, animated: true, completion: nil)
-    }
+
 }
