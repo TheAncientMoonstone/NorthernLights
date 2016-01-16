@@ -1,32 +1,23 @@
 PODS:
-  - Bolts (1.5.1):
-    - Bolts/AppLinks (= 1.5.1)
-    - Bolts/Tasks (= 1.5.1)
-  - Bolts/AppLinks (1.5.1):
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
     - Bolts/Tasks
-  - Bolts/Tasks (1.5.1)
-  - FBSDKCoreKit (4.8.0):
-    - Bolts (~> 1.1)
-    - FBSDKCoreKit/arc (= 4.8.0)
-    - FBSDKCoreKit/no-arc (= 4.8.0)
-  - FBSDKCoreKit/arc (4.8.0):
-    - Bolts (~> 1.1)
-  - FBSDKCoreKit/no-arc (4.8.0):
-    - Bolts (~> 1.1)
-    - FBSDKCoreKit/arc
-  - FBSDKLoginKit (4.8.0):
+  - Bolts/Tasks (1.6.0)
+  - FBSDKCoreKit (4.9.0):
+    - Bolts (~> 1.5)
+  - FBSDKLoginKit (4.9.0):
     - FBSDKCoreKit
-  - Parse (1.11.0):
+  - Parse (1.12.0):
     - Bolts/Tasks (~> 1.5)
-  - ParseFacebookUtilsV4 (1.9.1):
+  - ParseFacebookUtilsV4 (1.11.0):
     - Bolts/Tasks (>= 1.5)
-    - FBSDKCoreKit (~> 4.8)
-    - FBSDKLoginKit (~> 4.8)
-    - Parse (~> 1.9)
-  - ParseTwitterUtils (1.9.1):
-    - Bolts/Tasks (~> 1.5)
-    - Parse (~> 1.9)
-  - ParseUI (1.1.7):
+    - FBSDKCoreKit (~> 4.9.0-beta)
+    - FBSDKLoginKit (~> 4.9.0-beta)
+    - FBSDKTVOSKit (~> 4.9.0-beta)
+    - Parse (~> 1.11)
+  - ParseUI (1.2.0):
     - Bolts/Tasks (~> 1.3)
     - Parse (~> 1.9)
 
@@ -35,16 +26,14 @@ DEPENDENCIES:
   - FBSDKLoginKit
   - Parse
   - ParseFacebookUtilsV4
-  - ParseTwitterUtils
   - ParseUI
 
 SPEC CHECKSUMS:
-  Bolts: a12663244b1d3351c738882e71902fc74db54f64
-  FBSDKCoreKit: 66a935d17b6e00b6b64e604f2eb9b72c9ab7deb8
-  FBSDKLoginKit: d893fcbb98d854496925e9ff73c67b896982d3c4
-  Parse: 886af46a0a677402f6374bb97ac212e795f70afe
-  ParseFacebookUtilsV4: eab9b4ade12f0800b4d30f6b808bca55ce17a0e9
-  ParseTwitterUtils: 41e8849e37db471e874c6e515190ded19e043dc8
-  ParseUI: c2bcdfbb00330e464b5b773266ae221697a3bb7b
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  FBSDKCoreKit: c4f25d27949a6ac80206063804d12ad1c7879612
+  FBSDKLoginKit: d46210c3955d69337c61325327f486ca50a8661f
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
+  ParseFacebookUtilsV4: 216e03bd560404eed09a4875c75f0c1cdf758070
+  ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
 
 COCOAPODS: 0.39.0

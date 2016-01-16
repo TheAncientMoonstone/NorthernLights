@@ -41,12 +41,12 @@ class ParseLogInAppearance: PFLogInViewController {
         
         // make the buttons classier
         customizeButton(logInView?.facebookButton!)
-        customizeButton(logInView?.twitterButton!)
+        
         customizeButton(logInView?.signUpButton!)
         
         // create an array of all the views we want to animate in when we launch
         // the screen
-        viewsToAnimate = [self.logInView?.usernameField, self.logInView?.passwordField, self.logInView?.logInButton, self.logInView?.passwordForgottenButton, self.logInView?.facebookButton, self.logInView?.twitterButton, self.logInView?.signUpButton, self.logInView?.logo]
+        viewsToAnimate = [self.logInView?.usernameField, self.logInView?.passwordField, self.logInView?.logInButton, self.logInView?.passwordForgottenButton, self.logInView?.facebookButton, self.logInView?.signUpButton, self.logInView?.logo]
         
         // use our custom SignUpViewController
         self.signUpController = ParseSignUpAppearance()
