@@ -21,6 +21,14 @@ class ParseSignUpAppearance: PFSignUpViewController {
         backgroundImage.contentMode = UIViewContentMode.ScaleAspectFill
         signUpView!.insertSubview(backgroundImage, atIndex: 0)
         
+        // apply the blur effect
+        backgroundImage.image = UIImage(named: "Melbourne")
+        let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
+        let blurEffectView = UIVisualEffectView(effect: blurEffect)
+        blurEffectView.frame = view.bounds
+        blurEffectView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight] // for supporting device rotation
+        view.addSubview(blurEffectView)
+        
         // Remove the Parse Logo
         let logo = UILabel()
         logo.text = "North Lights"
