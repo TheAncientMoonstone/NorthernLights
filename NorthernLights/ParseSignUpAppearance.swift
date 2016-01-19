@@ -13,6 +13,7 @@ class ParseSignUpAppearance: PFSignUpViewController {
     
     var backgroundImage : UIImageView!;
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,6 +29,7 @@ class ParseSignUpAppearance: PFSignUpViewController {
         blurEffectView.frame = view.bounds
         blurEffectView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight] // for supporting device rotation
         view.addSubview(blurEffectView)
+        view.insertSubview(blurEffectView, atIndex: 2)
         
         // Remove the Parse Logo
         let logo = UILabel()
