@@ -17,11 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        Parse.setApplicationId("@DdNWBBrf964TPcB4m5jXmoSWIwu2A2wskA3NDqLI", clientKey: "@rjt4FqVc172wpbHzry2ByPN2RDCO5Kh9VgEEef6C")
+        Parse.setApplicationId("tzswQz6CNyCzFvqSw38rC6Srqp1BlKsb8k2yINV5", clientKey: "ztOno0BFpnJIECkUcK9qRCouadSaxEevBAgeShEU")
         PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
         return true
     }
     
+
     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
         return FBSDKApplicationDelegate.sharedInstance().application(application, openURL:  url, sourceApplication: sourceApplication, annotation: annotation)
     }
@@ -50,5 +51,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
-}
 
+
+}

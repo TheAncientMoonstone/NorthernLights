@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ParseLogInAppearance: PFLogInViewController {
     var backgroundImage : UIImageView!;
     
@@ -30,7 +31,7 @@ class ParseLogInAppearance: PFLogInViewController {
         blurEffectView.frame = view.bounds
         blurEffectView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight] // for supporting device rotation
         view.addSubview(blurEffectView)
-        view.insertSubview(blurEffectView, atIndex: 2);
+        view.insertSubview(blurEffectView, atIndex: 1);
         
         // remove the parse Logo
         let logo = UILabel()
