@@ -22,8 +22,9 @@ class ParseLogInAppearance: PFLogInViewController {
         // set our custom background image
         backgroundImage = UIImageView(image: UIImage(named: "Melbourne"))
         backgroundImage.contentMode = UIViewContentMode.ScaleAspectFill
-        logInView!.insertSubview(backgroundImage, atIndex: 0)
         
+        logInView!.insertSubview(backgroundImage, atIndex: 0)
+        /*
         // apply the blurring effect
         backgroundImage.image = UIImage(named: "Melbourne")
         let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Dark)
@@ -32,6 +33,7 @@ class ParseLogInAppearance: PFLogInViewController {
         blurEffectView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight] // for supporting device rotation
         view.addSubview(blurEffectView)
         view.insertSubview(blurEffectView, atIndex: 1);
+        */
         
         // remove the parse Logo
         let logo = UILabel()

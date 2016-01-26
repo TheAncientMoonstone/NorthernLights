@@ -42,7 +42,7 @@ class ParseLogInViewController: UIViewController, PFLogInViewControllerDelegate,
         }
         
     }
-    
+
     func signUpViewController() {
         // This allows for users to signup without to have a Facebook account.
         let user = PFUser()
@@ -69,9 +69,10 @@ class ParseLogInViewController: UIViewController, PFLogInViewControllerDelegate,
             (user: PFUser?, error: NSError?) -> Void in
             if user != nil {
                 // Do stuff after successful login.
+            
             } else {
                 // The login failed. Check error to see why.
-        }
+            }
             let currentUser = PFUser.currentUser()
             if currentUser != nil {
                 // Do stuff with the user
@@ -79,5 +80,5 @@ class ParseLogInViewController: UIViewController, PFLogInViewControllerDelegate,
                 // Show the signup or login screen.
             }
         }
-    }
+    }    
 }
